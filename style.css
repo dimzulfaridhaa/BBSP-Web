@@ -1,0 +1,38 @@
+.jumbotron {
+  padding-top: 9rem;
+  background-color: #deebed;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 6rem;
+}
+
+.navbarbbsp {
+  background-color: #0a4d68;
+}
+
+.feature {
+  background-color: #deebed;
+}
+.footer {
+  background-color: #0a4d68;
+}
+
+.btn {
+  background-color: #0a4d68;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #0a4d68;
+  color: #fff;
+}
+
+.card-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
