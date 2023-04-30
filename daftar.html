@@ -3,35 +3,44 @@
   <head>
     <title>Buat Akun Baru</title>
     <!-- Load Bootstrap CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <style>
+      /* Aturan CSS untuk membuat kolom input form menjadi lebar penuh pada layar kecil */
+      @media (max-width: 576px) {
+        .form-group {
+          width: 100%;
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-6">
-          <h2>Buat Akun</h2>
+          <h2 class="text-center">Buat Akun</h2>
           <form>
             <div class="form-group">
               <label for="nama">Nama Lengkap</label>
               <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Lengkap" />
             </div>
             <div class="form-group">
-              <label for="email">Nomor Telepon</label>
-              <input type="email" class="form-control" id="nomor telepon" placeholder="Masukkan Nomor Telepon" />
+              <label for="nomor-telepon">Nomor Telepon</label>
+              <input type="tel" class="form-control" id="nomor-telepon" placeholder="Masukkan Nomor Telepon" />
             </div>
             <div class="form-group">
-              <label for="password">Email</label>
-              <input type="password" class="form-control" id="email" placeholder="Masukkan Email" />
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Masukkan Email" />
             </div>
             <div class="form-group">
-              <label for="password2">Password</label>
+              <label for="password">Password</label>
               <input type="password" class="form-control" id="password" placeholder="Masukkan Password" />
             </div>
             <div class="form-group">
-              <label for="password2">Konfirmasi Password</label>
-              <input type="password" class="form-control" id="konfirmasi password" placeholder="Ulangi Kata Sandi" />
+              <label for="konfirmasi-password">Konfirmasi Password</label>
+              <input type="password" class="form-control" id="konfirmasi-password" placeholder="Ulangi Kata Sandi" />
             </div>
-            <button type="submit" class="btn btn-primary">DAFTAR</button>
+            <button type="submit" class="btn btn-primary btn-block">DAFTAR</button>
           </form>
         </div>
       </div>
