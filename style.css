@@ -36,6 +36,24 @@ section {
   text-align: justify;
   text-justify: inter-word;
 }
- .tampil-pasword{
-  font: size 15px;;
- }
+.tampil-pasword {
+  font: size 15px;
+}
+
+.daftar {
+  background-color: #0a4d68;
+  color: rgb(255, 255, 255);
+}
+
+.simpan {
+  background-color: #0a4d68;
+  color: rgb(255, 255, 255);
+}
+/* CSS untuk menampilkan gambar di tengah */
+img {
+  display: block; /* agar gambar muncul sebagai elemen block */
+  margin: auto; /* membuat gambar menjadi center */
+}
+.img-thumbnail {
+  border-radius: 50%;
+}
