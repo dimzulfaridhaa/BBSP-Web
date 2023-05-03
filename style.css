@@ -44,9 +44,24 @@ section {
   background-color: #0a4d68;
   color: #ffffff;
 }
- .icontoggle {
+.icontoggle {
   cursor: pointer;
- }
+}
 
+.daftar {
+  background-color: #0a4d68;
+  color: rgb(255, 255, 255);
+}
 
- 
+.simpan {
+  background-color: #0a4d68;
+  color: rgb(255, 255, 255);
+}
+/* CSS untuk menampilkan gambar di tengah */
+img {
+  display: block; /* agar gambar muncul sebagai elemen block */
+  margin: auto; /* membuat gambar menjadi center */
+}
+.img-thumbnail {
+  border-radius: 50%;
+}
