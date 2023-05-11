@@ -68,6 +68,7 @@ session_start();
     alert("Password salah. Silakan coba lagi.");
   </script>
 <?php
+unset($_SESSION['gagal']);
   endif;
 ?>
 
