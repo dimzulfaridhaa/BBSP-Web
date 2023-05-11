@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Jika data berhasil disimpan, redirect ke halaman login
     if ($result) {
-      header('Location: ../login.html');
+      header('Location: ../login.php');
       exit;
     } else {
       $errors[] = 'Terjadi kesalahan saat menyimpan data ke database';
