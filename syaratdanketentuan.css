@@ -4,9 +4,9 @@ body {
   padding: 0;
 }
 header {
-  background-color: #333;
+  background-color: #0a4d68;
   color: #fff;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
 }
 h1 {
@@ -20,12 +20,12 @@ h1 {
   align-items: center;
 }
 section {
-  background-color: #f2f2f2;
+  background-color: #e2edff;
   padding: 20px;
   margin-bottom: 20px;
   width: 100%;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 h2 {
   font-size: 24px;
@@ -43,4 +43,14 @@ p {
   section {
     width: 80%;
   }
+}
+
+.btn {
+  background-color: #0a4d68;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #0a4d68;
+  color: #ffffff;
 }

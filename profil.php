@@ -28,7 +28,7 @@ session_start();
             <div class="row mb-3">
               <label for="name" class="col-sm-3 col-form-label">Nama Lengkap:</label>
               <div class="col-sm-9">
-                <span class="text-truncate"><?php echo $_SESSION['username'];?></span>
+                <span class="text-truncate"><?php echo $_SESSION['nama'];?></span>
               </div>
             </div>
             <div class="row mb-3">
@@ -52,11 +52,25 @@ session_start();
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
           <button class="btn btn-secondary me-md-2" type="button">Pengaturan</button>
           <a href="syaratketentuan.html" class="btn btn-secondary" type="button">FAQ</a>
-          <a href="index.html" class="btn btn-danger" type="button">Keluar</a>
+          <a  class="btn btn-danger" type="button" onclick="konfirmasiLogout()">Keluar</a>
         </div>
       </div>
     </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"></script>
+  <script>
+    // Membuat fungsi untuk konfirmasi log out
+function konfirmasiLogout() {
+  // Menampilkan pesan konfirmasi menggunakan alert
+  if (confirm("Anda yakin ingin keluar?")) {
+    // Jika pengguna memilih "OK", maka log out
+    window.location = "index.html"; // Ganti dengan URL halaman log out
+  } else {
+    // Jika pengguna memilih "Cancel", maka tetap di halaman saat ini
+    // ...
+  }
+}
+
+  </script>
 </body>
 </html>
