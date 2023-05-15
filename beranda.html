@@ -19,7 +19,7 @@
       <!-- Search Bar -->
       <form>
         <div class="search-container">
-          <input class="search-bar" type="text" placeholder="Search..." />
+          <input class="search-bar" id="search-bar" type="text" placeholder="Cari Barang" />
           <button class="search-button" type="submit">
             <i data-feather="search"></i>
           </button>
@@ -27,7 +27,7 @@
       </form>
 
       <!-- Jual -->
-      <a href="jual.html">
+      <a href="jualbarang.html">
         <button class="jual-button">Jual Barang</button>
       </a>
 
@@ -35,7 +35,7 @@
       <div class="nav-icons">
         <i class="nav-icon" data-feather="heart"></i>
         <i class="nav-icon" data-feather="message-square"></i>
-        <a href="profil.php">
+        <a href="profile.php">
           <i class="nav-icon" data-feather="user"></i>
         </a>
       </div>
@@ -52,7 +52,7 @@
           <a href="#"><i data-feather="message-square"></i></a>
         </div>
         <div class="product-content">
-          <h3>Kayu</h3>
+          <h3 class="item">Kayu</h3>
         </div>
         <div class="product-price">Rp 200.000</div>
       </div>
@@ -67,7 +67,7 @@
           <a href="#"><i data-feather="message-square"></i></a>
         </div>
         <div class="product-content">
-          <h3>Semen</h3>
+          <h3 class="item">Semen</h3>
         </div>
         <div class="product-price">Rp 80.000</div>
       </div>
@@ -82,7 +82,7 @@
           <a href="#"><i data-feather="message-square"></i></a>
         </div>
         <div class="product-content">
-          <h3>Pipa</h3>
+          <h3 class="item">Pipa</h3>
         </div>
         <div class="product-price">Rp 50.000</div>
       </div>
@@ -97,7 +97,7 @@
           <a href="#"><i data-feather="message-square"></i></a>
         </div>
         <div class="product-content">
-          <h3>Besi</h3>
+          <h3 class="item">Besi</h3>
         </div>
         <div class="product-price">Rp 150.000</div>
       </div>
@@ -112,7 +112,7 @@
           <a href="#"><i data-feather="message-square"></i></a>
         </div>
         <div class="product-content">
-          <h3>Pemotong Kayu</h3>
+          <h3 class="item">Pemotong Kayu</h3>
         </div>
         <div class="product-price">Rp 300.000</div>
       </div>
@@ -127,7 +127,7 @@
           <a href="#"><i data-feather="message-square"></i></a>
         </div>
         <div class="product-content">
-          <h3>Bor</h3>
+          <h3 class="item">Bor</h3>
         </div>
         <div class="product-price">Rp 500.000</div>
       </div>
@@ -142,7 +142,7 @@
           <a href="#"><i data-feather="message-square"></i></a>
         </div>
         <div class="product-content">
-          <h3>Mesin Cor Semen</h3>
+          <h3 class="item">Mesin Cor Semen</h3>
         </div>
         <div class="product-price">Rp 3.000.000</div>
       </div>
@@ -157,7 +157,156 @@
           <a href="#"><i data-feather="message-square"></i></a>
         </div>
         <div class="product-content">
-          <h3>Gerobak Pasir</h3>
+          <h3 class="item">Gerobak Pasir</h3>
+        </div>
+        <div class="product-price">Rp 300.000</div>
+      </div>
+
+      <!-- Produk 1 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img src="img/product/p1.jpg" alt="Product 1" />
+        </div>
+        <div class="product-icons">
+          <a href="#"><i data-feather="heart"></i></a>
+          <a href="#"><i data-feather="message-square"></i></a>
+        </div>
+        <div class="product-content">
+          <h3 class="item">Kayu</h3>
+        </div>
+        <div class="product-price">Rp 200.000</div>
+      </div>
+
+      <!-- Produk 2 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img src="img/product/p2.jpg" alt="Product 1" />
+        </div>
+        <div class="product-icons">
+          <a href="#"><i data-feather="heart"></i></a>
+          <a href="#"><i data-feather="message-square"></i></a>
+        </div>
+        <div class="product-content">
+          <h3 class="item">Semen</h3>
+        </div>
+        <div class="product-price">Rp 80.000</div>
+      </div>
+
+      <!-- Produk 3 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img src="img/product/p3.jpg" alt="Product 1" />
+        </div>
+        <div class="product-icons">
+          <a href="#"><i data-feather="heart"></i></a>
+          <a href="#"><i data-feather="message-square"></i></a>
+        </div>
+        <div class="product-content">
+          <h3 class="item">Pipa</h3>
+        </div>
+        <div class="product-price">Rp 50.000</div>
+      </div>
+
+      <!-- Produk 4 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img src="img/product/p4.jpg" alt="Product 1" />
+        </div>
+        <div class="product-icons">
+          <a href="#"><i data-feather="heart"></i></a>
+          <a href="#"><i data-feather="message-square"></i></a>
+        </div>
+        <div class="product-content">
+          <h3 class="item">Besi</h3>
+        </div>
+        <div class="product-price">Rp 150.000</div>
+      </div>
+
+      <!-- Produk 5 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img src="img/product/p5.jpg" alt="Product 1" />
+        </div>
+        <div class="product-icons">
+          <a href="#"><i data-feather="heart"></i></a>
+          <a href="#"><i data-feather="message-square"></i></a>
+        </div>
+        <div class="product-content">
+          <h3 class="item">Pemotong Kayu</h3>
+        </div>
+        <div class="product-price">Rp 300.000</div>
+      </div>
+
+      <!-- Produk 6 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img src="img/product/p6.jpg" alt="Product 1" />
+        </div>
+        <div class="product-icons">
+          <a href="#"><i data-feather="heart"></i></a>
+          <a href="#"><i data-feather="message-square"></i></a>
+        </div>
+        <div class="product-content">
+          <h3 class="item">Bor</h3>
+        </div>
+        <div class="product-price">Rp 500.000</div>
+      </div>
+
+      <!-- Produk 7 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img src="img/product/p7.jpg" alt="Product 1" />
+        </div>
+        <div class="product-icons">
+          <a href="#"><i data-feather="heart"></i></a>
+          <a href="#"><i data-feather="message-square"></i></a>
+        </div>
+        <div class="product-content">
+          <h3 class="item">Mesin Cor Semen</h3>
+        </div>
+        <div class="product-price">Rp 3.000.000</div>
+      </div>
+
+      <!-- Produk 8 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img src="img/product/p8.jpg" alt="Product 1" />
+        </div>
+        <div class="product-icons">
+          <a href="#"><i data-feather="heart"></i></a>
+          <a href="#"><i data-feather="message-square"></i></a>
+        </div>
+        <div class="product-content">
+          <h3 class="item">Gerobak Pasir</h3>
+        </div>
+        <div class="product-price">Rp 300.000</div>
+      </div>
+      <!-- Produk 7 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img src="img/product/p7.jpg" alt="Product 1" />
+        </div>
+        <div class="product-icons">
+          <a href="#"><i data-feather="heart"></i></a>
+          <a href="#"><i data-feather="message-square"></i></a>
+        </div>
+        <div class="product-content">
+          <h3 class="item">Mesin Cor Semen</h3>
+        </div>
+        <div class="product-price">Rp 3.000.000</div>
+      </div>
+
+      <!-- Produk 8 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img src="img/product/p8.jpg" alt="Product 1" />
+        </div>
+        <div class="product-icons">
+          <a href="#"><i data-feather="heart"></i></a>
+          <a href="#"><i data-feather="message-square"></i></a>
+        </div>
+        <div class="product-content">
+          <h3 class="item">Gerobak Pasir</h3>
         </div>
         <div class="product-price">Rp 300.000</div>
       </div>
@@ -165,6 +314,35 @@
     <!-- Feather Icons -->
     <script>
       feather.replace();
+
+      function search() {
+        // ambil input dari search bar
+        var input = document.getElementById("search-bar").value.toLowerCase();
+
+        // ambil semua produk
+        var products = document.getElementsByClassName("product-card");
+
+        // loop melalui semua produk dan sembunyikan yang tidak cocok dengan input
+        for (var i = 0; i < products.length; i++) {
+          var product = products[i];
+          var productName = product.querySelector(".item").innerText.toLowerCase();
+
+          if (productName.indexOf(input) > -1) {
+            product.style.display = "";
+          } else {
+            product.style.display = "none";
+          }
+        }
+      }
+
+      // ambil element search bar
+      var searchBar = document.querySelector(".search-button");
+
+      // tambahkan event listener pada search bar
+      searchBar.addEventListener("click", function (event) {
+        search();
+        event.preventDefault();
+      });
     </script>
   </body>
 </html>
