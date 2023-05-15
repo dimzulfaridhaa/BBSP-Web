@@ -1,66 +1,72 @@
-/* mengatur tata letak body dan memperindah font */
-body {
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color: #f8f8f8;
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-/* mengatur tata letak header dan warna latar */
-h1 {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
-	margin-top: 0;
-	text-align: center;
+.profile-picture img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
-/* mengatur tata letak dan margin untuk ul */
-ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 20px;
+.profile-name {
+  font-size: 36px;
+  margin-top: 20px;
+  text-align: center;
 }
 
-/* mengatur tata letak dan margin untuk li */
-li {
-	margin-bottom: 10px;
+.profile-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
 }
 
-/* mengatur tampilan nama */
-li:nth-child(1) {
-	font-size: 24px;
-	font-weight: bold;
+.profile-info {
+  margin-top: 40px;
+  text-align: center;
 }
 
-/* mengatur tampilan untuk informasi lainnya */
-li:not(:nth-child(1)) {
-	font-size: 18px;
+.profile-info h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
 }
 
-/* mengatur tampilan untuk email */
-li:nth-child(4) {
-	font-style: italic;
-	color: #555;
+.profile-contact {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-/* mengatur tampilan untuk informasi bergabung sejak */
-li:nth-child(5) {
-	font-style: italic;
-	color: #555;
+.profile-buttons {
+  margin-top: 30px;
+  text-align: center;
 }
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  td {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
+.profile-buttons a {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #2196f3;
+  border-color: #2196f3;
+}
+
+.btn-danger {
+  background-color: #f44336;
+  border-color: #f44336;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-color: #0c7cd5;
+  border-color: #0c7cd5;
+}
+
+.profile {
+  background-color: #0a4d68;
+}
